@@ -60,20 +60,29 @@ display: inline-block;
     background-color: black;
 }
 
-
-.para .block{
-    background-color: black;
+.Paragraph{
+    color: white;
+    background-color: black ;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-.block{
-    color: white;
-    border: 2px dotted ;
-    border-color: grey;
-    float: left;
-    width:33.3%;
-padding: 10px;
-box-sizing: border-box;}
-    
+.block1{
+    background-color: grey;
+    padding: 10px;
+}
+
+.block2{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.block3{
+    background-color: grey;
+    padding: 10px;
+}
 
 #footer{
     color: white;
