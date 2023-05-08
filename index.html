@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css\style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>learning-html-css</title>
 </head>
 <body>
-    <div>
+    <div id="body">
+        <header id="main-head">
         <h1>LEARNING HTML-CSS</h1>
-        <hr>
-        <div>
+        </header>
+        <nav id="main-nav">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="https://fluttering-macadamia-994.notion.site/ME-Internship-2023-Week-1-e5be5bcae69e46c4b637e17db0aa7b5d"><li>Week-1</li></a>
+                <a href="https://adharshreghu-portfolio.netlify.app/projects.html"><li>Projects</li></a>
+               <a href="https://www.mind-empowered.org/"><li>Mind Empowered</li></a>
+            </ul>
+        </nav>
+        
+        <section id="image">
             <h2>Image Section</h2>
             <div class ="images">
                 <img src="images\480px-HTML5_logo_and_wordmark.svg.png" alt="HTML Image" height="150" width="150">
                 <img src="images\CSS3_logo_and_wordmark.svg.png" alt="CSS image" height="150" width="150">
             </div>
-            <hr>
+        </section>
+        <section class="lists">
             <div class="ordered-list">
                 <h2>Ordered List Section</h2>
                 <h3>Week -1 Tasks</h3>
-                <ol>
+                <ol class="olist">
                     <li>Learn Git and GitHub</li>
                     <li>Learn HTML basics</li>
                     <li>Learn CSS basics</li>
@@ -29,13 +41,13 @@
             <div class="Unordered-list">
                 <h2>Unordered List Section</h2>
                 <h3>Week 1 deliverables</h3>
-                <ul>
+                <ul class="ulist">
                     <li>Add github profile name to the provided google sheet</li>
                     <li>Create a Github Repo and upload files index.txt and test.txt</li>
                     <li>Create a repo for practicing html and css</li>
                 </ul>
             </div>
-            <hr>
+        </section>
             <div class="table">
                 <h2>Table Section</h2>
                 <table border="1">
@@ -72,21 +84,24 @@
                     </tbody>
                 </table>
             </div>
-            <hr>
+
             <div class="para">
                 <h2>Paragraph Section</h2>
-                <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.</p>
-                <p>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
-                <p>JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[10] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).</p>
-        
+                <div class="block"><h2>HTML</h2>
+                    <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.</p></div>
+                <div class="block"><h2>CSS</h2><p>CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p></div>
+                <div class="block"><h2>JavaScript</h2><p>JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[10] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).</p></div>
             </div>
-        </div>
-        <hr>
+            <div class="clr"></div>
         <div class="links">
-            <h1>Links Section</h1>
+            <h2>Links Section</h2>
             For link to Mind Empowered Website click <a href="https://www.mind-empowered.org/">here</a><br>
             For link to my portfolio click <a href="http://adharshreghu-portfolio.netlify.app/">here</a>
         </div>
+        <footer id="footer">
+            <p>Created by Adharsh Reghu as part of Mind Empowerwed Internship Week 1 Task </p>
+            <p>Copyright &copy; 2023</p>
+        </footer>
     </div>
 </body>
 </html>
