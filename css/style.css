@@ -1,3 +1,4 @@
+
 a:hover{
     color: red;
 }
@@ -8,6 +9,9 @@ body{
 
 .clr{
     clear: both;
+}
+p{
+    font-size: 20px;
 }
 
 #body{
@@ -26,6 +30,7 @@ body{
 }
 
 #main-nav {
+    font-size: 20px;
     height: auto;
     margin: 0;
     width: 100%;
@@ -68,6 +73,7 @@ display: inline-block;
     padding-right: 30px;
     padding-bottom: 30px;
     text-align: center;
+
 }
 
 .block1{
@@ -111,9 +117,11 @@ display: inline-block;
 
 .lists ol{
     list-style: upper-alpha;
+    font-size: 20px;
 }
  .lists ul{
     list-style: square;
+    font-size: 20px;
  }
 
 .lists li{
