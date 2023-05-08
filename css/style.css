@@ -84,7 +84,7 @@ display: inline-block;
 
 .block3{
     background-color: grey;
-    color: white;
+    color:black;
     padding: 10px;
 }
 
@@ -97,6 +97,7 @@ display: inline-block;
 }
 
 #image{
+    text-align: center;
     padding:1px 30px 30px 30px 
 }
 
@@ -124,6 +125,30 @@ display: inline-block;
 }
 
 .lists ul li:nth-child(odd){
+    background-color: grey;
+}
+
+#tables {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.table table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table th{
+    background-color: black;
+    color: white;
+}
+
+.table td{
+    text-align: left;;
+}
+
+.table tr:nth-child(even){
     background-color: grey;
 }
 
