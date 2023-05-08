@@ -63,13 +63,16 @@ display: inline-block;
 .Paragraph{
     color: white;
     background-color: black ;
-    padding: 10px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
 .block1{
     background-color: grey;
+    color: black;
     padding: 10px;
 }
 
@@ -81,6 +84,7 @@ display: inline-block;
 
 .block3{
     background-color: grey;
+    color: white;
     padding: 10px;
 }
 
@@ -93,8 +97,33 @@ display: inline-block;
 }
 
 #image{
-    background-color: bisque;
-    padding-top: 1px;
-    padding-bottom: 10px;
+    padding:1px 30px 30px 30px 
+}
+
+
+
+.lists{
+    background-color: black;
+    color: white;
+    padding:1px 30px 30px 30px;
+}
+
+.lists ol{
+    list-style: upper-alpha;
+}
+ .lists ul{
+    list-style: square;
+ }
+
+.lists li{
+    padding-bottom: 5px;
+}
+
+.lists ol li:nth-child(odd){
+    background-color: grey;
+}
+
+.lists ul li:nth-child(odd){
+    background-color: grey;
 }
 
