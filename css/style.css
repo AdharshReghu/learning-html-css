@@ -143,12 +143,17 @@ display: inline-block;
     background-color: black;
     color: white;
 }
-
-.table td{
-    text-align: left;;
+.table tr{
+    height: 30px;
 }
+
+
 
 .table tr:nth-child(even){
     background-color: grey;
+}
+
+#link {
+    text-align: center;
 }
 
